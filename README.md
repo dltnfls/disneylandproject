@@ -21,7 +21,12 @@ https://github.com/danmadeira/simple-icon-badges
 데이터에 대한 소개 (링크)
 https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 기본적인 정보 : 어떠한 데이터인지, 총 데이터 건 수
-이 데이터에는 파리, 캘리포니아, 홍콩 등 디즈니랜드 여러 지점에 대한 트립어드바이저 방문자가 게시한 평점 등 총 42,000개의 리뷰가 있다.
+<img width="511" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/5b601032-ab76-4f03-ae86-8ee54363d81b">
+
+
+이 데이터에는 디즈니랜드 여러 지점들 중 거기서도 파리, 캘리포니아, 홍콩 총 3개 지점에 대한 트립어드바이저 방문자가 게시한 평점 등 총 42,000개의 리뷰가 있다.
+
+
 
 ### 2.2 추출한 데이터
 대량의 데이터에서 관심 영역을 추출한다. (5만 ~ 10만건)

@@ -21,12 +21,10 @@ https://github.com/danmadeira/simple-icon-badges
 데이터에 대한 소개 (링크)
 https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 기본적인 정보 : 어떠한 데이터인지, 총 데이터 건 수
+-데이터 정보
 <img width="511" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/5b601032-ab76-4f03-ae86-8ee54363d81b">
-
-
-이 데이터에는 디즈니랜드 여러 지점들 중 거기서도 파리, 캘리포니아, 홍콩 총 3개 지점에 대한 트립어드바이저 방문자가 게시한 평점 등 총 42,000개의 리뷰가 있다.
-
-
+이 데이터에는 디즈니랜드 여러 지점들 중 거기서도 파리, 캘리포니아, 홍콩 총 3개 지점에 대한 트립어드바이저 방문자가 게시한 평점 등 총 42,000개의 리뷰가 있다. 
+평점은 1(불만족)부터 5(만족)까지 구성되어 있다.
 
 ### 2.2 추출한 데이터
 대량의 데이터에서 관심 영역을 추출한다. (5만 ~ 10만건)
@@ -34,6 +32,12 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 
 ### 2.3 추출한 데이터에 대한 탐색적 데이터 분석
 1~5점 척도인 경우에는 분포
+<img width="98" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/1e12b4b5-9b56-4066-a193-e396cfcee41e">
+리뷰 개수
+<img width="95" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/b66e1560-9de5-4974-8d7d-120b2a2b899e">
+방문한 디즈니랜드 지점 분포
+<img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/c24fc444-f18d-4249-805c-0e4520a12442">
+
 리뷰 문장의 길이
 연도별, 장소별 등등 데이터의 부가정보를 바탕으로 데이터를 탐색 (pandas, matplotlib)
 

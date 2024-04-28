@@ -31,8 +31,11 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 평점은 1(불만족)부터 5(만족)까지 구성되어 있다.
 
 ### 2.2 추출한 데이터
-대량의 데이터에서 관심 영역을 추출한다. (5만 ~ 10만건)
-최소 2만건
+대량의 데이터에서 관심 영역을 추출한다. (5만 ~ 10만건)<br>
+*최소 2만건(파이참과 csv 파일 연결하기)  
+
+<img width="990" alt="스크린샷 2024-04-28 130750" src="https://github.com/dltnfls/disneylandproject/assets/101054398/88a546ed-4c00-44e4-873c-c626b24d3a69">
+
 
 ### 2.3 추출한 데이터에 대한 탐색적 데이터 분석
 * 1~5점 척도인 경우에는 분포

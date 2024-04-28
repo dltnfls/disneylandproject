@@ -18,7 +18,7 @@ https://github.com/danmadeira/simple-icon-badges
 
 ## 2. 데이터
 ### 2.1 원시 데이터
-* 데이터에 대한 소개 (링크)
+* 데이터에 대한 소개 (링크) <br>
 https://www.kaggle.com/datasets/arushchillar/disneyland-reviews  
 
 ### 기본적인 정보 : 어떠한 데이터인지, 총 데이터 건 수  
@@ -35,13 +35,13 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 최소 2만건
 
 ### 2.3 추출한 데이터에 대한 탐색적 데이터 분석
-* 1~5점 척도인 경우에는 분포<br>
+* 1~5점 척도인 경우에는 분포
 
 <img width="98" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/1e12b4b5-9b56-4066-a193-e396cfcee41e">
 
 * 리뷰 개수  
 
-<img width="95" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/b66e1560-9de5-4974-8d7d-120b2a2b899e">  
+<img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/79b2ff99-c252-4b29-950a-d7a7aafe9522">  
 
 * 방문한 디즈니랜드 지점 분포
 

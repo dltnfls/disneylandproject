@@ -22,8 +22,7 @@ https://github.com/danmadeira/simple-icon-badges
 https://www.kaggle.com/datasets/arushchillar/disneyland-reviews  
 
 ### 기본적인 정보 : 어떠한 데이터인지, 총 데이터 건 수  
-<br> *데이터 정보
-
+* 데이터 정보
 
 <img width="511" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/5b601032-ab76-4f03-ae86-8ee54363d81b">
 
@@ -48,8 +47,6 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 
 <img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/c24fc444-f18d-4249-805c-0e4520a12442">
 
-리뷰 문장의 길이
-연도별, 장소별 등등 데이터의 부가정보를 바탕으로 데이터를 탐색 (pandas, matplotlib)
 
 # 여기까지가 중간 과제 점검 
 

@@ -23,11 +23,14 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 
 ### 기본적인 정보 : 어떠한 데이터인지, 총 데이터 건 수  
 * 데이터 정보
-|Review_ID|Rating|Year_Month Review_Location|Review_Text|Location|
-|------|---|---|---|---|
-|각 리뷰에 부여된 고유 ID|평점|방문일자|방문자출신국가|코멘트|디즈니랜드 파크 위치|
+
 <img width="511" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/5b601032-ab76-4f03-ae86-8ee54363d81b">
 
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
 
 이 데이터에는 디즈니랜드 여러 지점들 중 거기서도 파리, 캘리포니아, 홍콩 총 3개 지점에 대한 트립어드바이저 방문자가 게시한 평점 등 총 42,000개의 리뷰가 있다. 
 평점은 1(불만족)부터 5(만족)까지 구성되어 있다.

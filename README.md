@@ -31,6 +31,17 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 이 데이터에는 디즈니랜드 여러 지점들 중 거기서도 파리, 캘리포니아, 홍콩 총 3개 지점에 대한 트립어드바이저 방문자가 게시한 평점 등 총 42,000개의 리뷰가 있다. 
 평점은 1(불만족)부터 5(만족)까지 구성되어 있다.
 
+* 활용할 데이터 예시
+  | -     | Review_ID | Rating | Year_Month |    Reviewer_Location | Review_Text                                                                                        | Location            |
+|-------|-----------|--------|------------|---------------------:|----------------------------------------------------------------------------------------------------|---------------------|
+| 1     | 670772142 | 4      | Apr-19     | Australia            | "One of the rides  its a Small World  is absolutely fabulous..."                                   | Disneyland_HongKong |
+| 2     | 670682799 | 4      | May-19     | Philippines          | "Bakery in Main Street now have more attractive..."                                                | Disneyland_HongKong |
+| 3     | 670623270 | 4      | Apr-19     | United Arab Emirates | "Although I had an amazing time."                                                                  | Disneyland_HongKong |
+| ...   |           |        |            |                      |                                                                                                    |                     |
+| 42656 | 1645894   | 5      | missing    | South Africa         | "The highlight of our stay was the Walt Disney Studios."                                           | Dinseyland_Paris    |
+| 42657 | 1618637   | 4      | missing    | United States        | "This hotel, part of the Disneyland Paris complex, is a wonderful place for families..."           | Dinseyland_Paris    |
+| 42658 | 1536786   | 4      | missing    | United Kingdom       | "The minute you enter, the transport to disneyland paris, you are treated like a special guest..." | Dinseyland_Paris    |
+
 ### 2.2 추출한 데이터
 대량의 데이터에서 관심 영역을 추출한다. (5만 ~ 10만건)<br>
 *최소 2만건(파이참과 csv 파일 연결하기)  

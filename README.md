@@ -32,6 +32,8 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 평점은 1(불만족)부터 5(만족)까지 구성되어 있다.
 
 * 활용할 데이터 예시
+
+  
   | -     | Review_ID | Rating | Year_Month |    Reviewer_Location | Review_Text                                                                                        | Location            |
 |-------|-----------|--------|------------|---------------------:|----------------------------------------------------------------------------------------------------|---------------------|
 | 1     | 670772142 | 4      | Apr-19     | Australia            | "One of the rides  its a Small World  is absolutely fabulous..."                                   | Disneyland_HongKong |

@@ -24,7 +24,7 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 ### 기본적인 정보 : 어떠한 데이터인지, 총 데이터 건 수  
 * 데이터 정보
 
-|Review_ID|Rating|Year_Month Review_Location|Review_Text|Location|
+|Review_ID|Rating|Year_Month|Review_Text|Location|
 |------|---|---|---|---|
 |각 리뷰에 부여된 고유 ID|평점|방문일자|방문자출신국가|코멘트|디즈니랜드 파크 위치| 
                                              

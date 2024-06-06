@@ -61,9 +61,9 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 
 <img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/79b2ff99-c252-4b29-950a-d7a7aafe9522">  
 
-* 방문한 디즈니랜드 지점 분포
-
-<img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/c24fc444-f18d-4249-805c-0e4520a12442">
+* 방문한 디즈니랜드 지점 분포(Location별로 리뷰가 몇 건 있는지 bar plot을 통해 나타내었다.)
+  
+![barplot](https://github.com/srsr47/disneylandproject/assets/101054398/3f82289f-4a0f-420f-9b79-64bfe5d6e4ed)
 
 
 # 여기까지가 중간 과제 점검 

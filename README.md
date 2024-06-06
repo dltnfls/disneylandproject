@@ -83,8 +83,6 @@ bar plot을 통해 5 > 4 > 3 > 2 > 1 순으로 리뷰의 수가 많음을 확인
   Y축: 리뷰의 수
 
 ![year_month](https://github.com/srsr47/disneylandproject/assets/101054398/7e485885-5772-43ca-bd96-dc130f58035b)
-![year_month](https://github.com/srsr47/disneylandproject/assets/101054398/7e485885-5772-43ca-bd96-dc130f58035b)
-
 
 선 그래프의 결과, 대체로 2015년에서 2016년 사이에 가장 많은 사람들이 리뷰를 작성했음을 알 수 있다.
 

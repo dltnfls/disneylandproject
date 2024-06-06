@@ -61,14 +61,39 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 
 <img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/79b2ff99-c252-4b29-950a-d7a7aafe9522">  
 
-* 방문한 디즈니랜드 지점 분포(Location별로 리뷰가 몇 건 있는지 bar plot을 통해 나타내었다.)
+* 방문한 디즈니랜드 지점 분포(Location별로 리뷰가 몇 건 있는지 bar plot을 통해 나타냈다.)
+  X축: 디즈니랜드 지점
+  Y축: 리뷰의 수
   
 ![barplot](https://github.com/srsr47/disneylandproject/assets/101054398/3f82289f-4a0f-420f-9b79-64bfe5d6e4ed)
 
+bar plot을 통해 California > Paris > HongKong 순으로 리뷰 수가 많음을 확인할 수 있다.
+
+* 평점(1~5점)의 분포가 어떻게 되는지 bar plot으로 나타냈다.
+  X축: Rating(1,2,3,4,5 평점)
+  Y축: 리뷰의 수
+
+![rating](https://github.com/srsr47/disneylandproject/assets/101054398/919f1a76-10f4-4d89-a6aa-64e9d5603519)
+
+bar plot을 통해 5 > 4 > 3 > 2 > 1 순으로 리뷰의 수가 많음을 확인할 수 있다. 
+
+* Year_Month에 따른 리뷰의 수 살펴보기
+  수많은 리뷰들 중 대체로 사람들이 언제 많이 방문하여 작성했는지를 선 그래프로 표시하였다.
+  X축: 년도
+  Y축: 리뷰의 수
+
+  ![Uploading year_month.png…]()
+
+선 그래프의 결과, 대체로 2015년에서 2016년 사이에 가장 많은 사람들이 리뷰를 작성했음을 알 수 있다.
 
 # 여기까지가 중간 과제 점검 
 
 ## 3. 학습 데이터 구축
+### 3.1
+이번에는 csv 파일을 데이터 프레임으로 읽어와 새로운 데이터 프레임을 생성한 후, 
+Review_Text를 통해 리뷰들을 긍정과 부정으로 분류해보기로 했다. 
+먼저 csv 파일 속 필요없는 Review_ID를 삭제하고 Review_Text라는 열 이름을 Review로 바꾼 후, Review 길이가 20자 미만, 600자 이상인 데이터를 삭제하였다. 
+Rating이 1점 또는 2점인 Review에는 '부정', Rating이 4점 또는 5점인 Review에는 '긍정' 레이블을 부여하고 Rating이 3점인 Review는 삭제를 했다.
 
 ## 4. MobileBERT 학습 결과
 

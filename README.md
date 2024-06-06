@@ -88,13 +88,48 @@ bar plot을 통해 5 > 4 > 3 > 2 > 1 순으로 리뷰의 수가 많음을 확인
 
 # 여기까지가 중간 과제 점검 
 
-## 3. 학습 데이터 구축
-### 3.1
+## 3. 학습 데이터 추출
+### 3.1 Label로 분류
 이번에는 csv 파일을 데이터 프레임으로 읽어와 새로운 데이터 프레임을 생성한 후, 
-Review_Text를 통해 리뷰들을 긍정과 부정으로 분류해보기로 했다. 
-먼저 csv 파일 속 필요없는 Review_ID를 삭제하고 Review_Text라는 열 이름을 Review로 바꾼 후, Review 길이가 20자 미만, 600자 이상인 데이터를 삭제하였다. 
-Rating이 1점 또는 2점인 Review에는 '부정', Rating이 4점 또는 5점인 Review에는 '긍정' 레이블을 부여하고 Rating이 3점인 Review는 삭제를 했다.
+Review_Text를 통해 리뷰들을 긍정과 부정으로 분류해보기로 했다. <br>
+먼저 csv 파일 속 필요없는 Review_ID를 삭제하고 Review_Text라는 열 이름을 Review로 바꾼 후, Review 길이가 20자 미만, 600자 이상인 데이터를 삭제하였다. <br>
+Rating이 1점 또는 2점인 Review에는 '부정', Rating이 4점 또는 5점인 Review에는 '긍정' label을 부여하고 Rating이 3점인 Review는 삭제를 했다. <br>
+총 24155개의 결과가 나왔다.
 
+| Number | Review                                            | Label |
+|--------|---------------------------------------------------|-------|
+| 1      | If you've ever been to Disneyland anywhere you... | 긍정  |
+| 2      | HK Disneyland is a great coompact park.           | 긍정  |
+| ...    | ...                                               | ...   |
+| 24154  | I would not recommend going if you have been...   | 부정  |
+| 24155  | My eleven year old daughter and myself went to... | 긍정  |
+
+[24155 rows x 3 columns]
+
+### 3.2 긍부정에 대한 비율 
+총 42,000개의 리뷰 중 93.9%가 긍정적인 편이었고 나머지 6.1%가 부정적인 리뷰였다.
+
+![graph](https://github.com/srsr47/disneylandproject/assets/101054398/bec10586-835a-4090-ae14-a0df0b1928ff)
+
+
+### 3.3 1500:1500(긍부정 비중)
+3.1과 같은 방법으로 새로운 데이터셋을 생성하였다. 다만 원래는 긍정과 부정 각각 임의로 1500개씩 추출하여 최종 데이터셋을 생성하려고 했으나 부정적인 리뷰의 수가 1500개보다 적어 오류가 발생하였다. 이를 해결하기 위해 임의로 추출할 부정적인 리뷰의 수를 원본 데이터셋에서 가능한 최대값인 부정적인 리뷰의 수로 설정하였고 원본 데이터셋에서 부정적인 리뷰의 수를 확인하고 그 수를 기반으로 샘플링하도록 코드를 수정하였다. 
+
+| Number | Review                                             | Label |
+|--------|----------------------------------------------------|-------|
+| 0      | We loved it.                                       | 긍정  |
+| 1      | Show up when the park opens. The park is...        | 긍정  |
+| 2      | My family visited Disney HK last october...        | 긍정  |
+| 3      | What a fun couple days! Our family went to Dis...  | 긍정  |
+| 4      | Visited Disney over the Christmas holidays...      | 긍정  |
+| ...    | ...                                                | ...   |
+| 2979   | Far too many rides shut for renovations the...     | 부정  |
+| 2980   | This place hasn't changed in years. While the...   | 부정  |
+| 2981   | We went for one day and I have to say, it was...   | 부정  |
+| 2982   | We had a eurodisney holiday booked for me, my ...  | 부정  |
+| 2983   | A large proportion of the Disneyland Park is c...  | 부정  |
+
+[2984 rows x 3 columns]
 ## 4. MobileBERT 학습 결과
 
 ## 5. 느낀점 및 배운점

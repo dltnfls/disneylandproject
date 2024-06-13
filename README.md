@@ -1,3 +1,6 @@
+![image](https://github.com/srsr47/disneylandproject/assets/101054398/feb39283-56e3-4e70-8685-e4d96444b75d)
+
+
 # disneylandproject
 ## Dinseyland 리뷰 분석 프로젝트  
 <!-- 

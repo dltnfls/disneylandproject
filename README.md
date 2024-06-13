@@ -96,7 +96,7 @@ Rating이 1점 또는 2점인 Review에는 '부정', Rating이 4점 또는 5점�
 '긍정'의 경우 1로 표시를, '부정'의 경우 0으로 표시를 했다. <br>
 총 24155개의 결과가 나왔다.
 
-| Number | Review                                            | Label |
+| Number | Review                                            |Label|
 |--------|---------------------------------------------------|-----|
 | 1      | If you've ever been to Disneyland anywhere you... |  1  |
 | 2      | HK Disneyland is a great coompact park.           |  1  |
@@ -112,25 +112,44 @@ Rating이 1점 또는 2점인 Review에는 '부정', Rating이 4점 또는 5점�
 <img width="586" alt="24155label" src="https://github.com/srsr47/disneylandproject/assets/101054398/b7437318-0628-4d81-a025-7d1053e94d41">
 
 
-
 ### 3.3 1500:1500(긍부정 비중)
 3.1과 같은 방법으로 새로운 데이터셋을 생성하였다. 다만 원래는 긍정과 부정 각각 임의로 1500개씩 추출하여 최종 데이터셋을 생성하려고 했으나 부정적인 리뷰의 수가 1500개보다 적어 오류가 발생하였다. 이를 해결하기 위해 임의로 추출할 부정적인 리뷰의 수를 원본 데이터셋에서 가능한 최대값인 부정적인 리뷰의 수로 설정하였고 원본 데이터셋에서 부정적인 리뷰의 수를 확인하고 그 수를 기반으로 샘플링하도록 코드를 수정하였다. 
 
-| Number | Review                                             | Label |
-|--------|----------------------------------------------------|-------|
-| 0      | We loved it.                                       | 긍정  |
-| 1      | Show up when the park opens. The park is...        | 긍정  |
-| 2      | My family visited Disney HK last october...        | 긍정  |
-| 3      | What a fun couple days! Our family went to Dis...  | 긍정  |
-| 4      | Visited Disney over the Christmas holidays...      | 긍정  |
-| ...    | ...                                                | ...   |
-| 2979   | Far too many rides shut for renovations the...     | 부정  |
-| 2980   | This place hasn't changed in years. While the...   | 부정  |
-| 2981   | We went for one day and I have to say, it was...   | 부정  |
-| 2982   | We had a eurodisney holiday booked for me, my ...  | 부정  |
-| 2983   | A large proportion of the Disneyland Park is c...  | 부정  |
+| Number | Review                                             |Label|
+|--------|----------------------------------------------------|-----|
+| 0      | We loved it.                                       |  1  |
+| 1      | Show up when the park opens. The park is...        |  1  |
+| 2      | My family visited Disney HK last october...        |  1  |
+| 3      | What a fun couple days! Our family went to Dis...  |  1  |
+| 4      | Visited Disney over the Christmas holidays...      |  1  |
+| ...    | ...                                                | ... |
+| 2979   | Far too many rides shut for renovations the...     |  0  |
+| 2980   | This place hasn't changed in years. While the...   |  0  |
+| 2981   | We went for one day and I have to say, it was...   |  0  |
+| 2982   | We had a eurodisney holiday booked for me, my ...  |  0  |
+| 2983   | A large proportion of the Disneyland Park is c...  |  0  |
 
 [2984 rows x 3 columns]
+
+### 3.3 3000건을 임의로 추출(긍부정 비중)
+이번에는 임의로 3000건을 추출하여 긍부정의 비중이 어떻게 되는지 만들어 보았다. 실행한 결과 긍정은 93.8%, 부정은 6.2%로 24,155개를 추출했을 때와 비슷하게 나타났다.
+
+| Number | Review                                             | Label |
+|--------|----------------------------------------------------|-------|
+| 3286   | Excellent place is not only for Kids but for a...  | 1     |
+| 14499  | Absolutely the best place for kids on the west...  | 1     |
+| 4596   | I went here with a friend last month and had a...  | 1     |
+| 5306   | Hong Kong Disneyland is very small. But...         | 1     |
+| 8233   | All life's worries disappear when I go here. I...  | 1     |
+| ...    | ...                                                | ...   |
+| 5742   | Pros: Very beautiful, the mickey mouse thrain i... | 1     |
+| 11576  | Having been a periodic visitor since 1957, I w...  | 1     |
+| 3070   | This Disney park is the least interesting of a...  | 0     |
+| 4653   | Disneyland HK had all the fun of the other Dis...  | 1     |
+
+<img width="524" alt="3000random" src="https://github.com/srsr47/disneylandproject/assets/101054398/6d8b724c-61cd-4ad6-bdcd-1bc00fea89a5">
+
+
 ## 4. MobileBERT 학습 결과
 
 ## 5. 느낀점 및 배운점

@@ -96,12 +96,12 @@ Rating이 1점 또는 2점인 Review에는 '부정', Rating이 4점 또는 5점�
 총 24155개의 결과가 나왔다.
 
 | Number | Review                                            | Label |
-|--------|---------------------------------------------------|-------|
-| 1      | If you've ever been to Disneyland anywhere you... | 긍정  |
-| 2      | HK Disneyland is a great coompact park.           | 긍정  |
-| ...    | ...                                               | ...   |
-| 24154  | I would not recommend going if you have been...   | 부정  |
-| 24155  | My eleven year old daughter and myself went to... | 긍정  |
+|--------|---------------------------------------------------|-----|
+| 1      | If you've ever been to Disneyland anywhere you... |  1  |
+| 2      | HK Disneyland is a great coompact park.           |  1  |
+| ...    | ...                                               |  ...|
+| 24154  | I would not recommend going if you have been...   |  0  |
+| 24155  | My eleven year old daughter and myself went to... |  0  |
 
 [24155 rows x 3 columns]
 

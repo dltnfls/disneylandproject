@@ -109,7 +109,8 @@ Rating이 1점 또는 2점인 Review에는 '부정', Rating이 4점 또는 5점�
 ### 3.2 긍부정에 대한 비율 
 총 42,000개의 리뷰 중 93.9%가 긍정적인 편이었고 나머지 6.1%가 부정적인 리뷰였다.
 
-![graph](https://github.com/srsr47/disneylandproject/assets/101054398/bec10586-835a-4090-ae14-a0df0b1928ff)
+<img width="586" alt="24155label" src="https://github.com/srsr47/disneylandproject/assets/101054398/b7437318-0628-4d81-a025-7d1053e94d41">
+
 
 
 ### 3.3 1500:1500(긍부정 비중)

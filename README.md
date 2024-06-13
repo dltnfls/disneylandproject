@@ -93,6 +93,7 @@ bar plot을 통해 5 > 4 > 3 > 2 > 1 순으로 리뷰의 수가 많음을 확인
 Review_Text를 통해 리뷰들을 긍정과 부정으로 분류해보기로 했다. <br>
 먼저 csv 파일 속 필요없는 Review_ID를 삭제하고 Review_Text라는 열 이름을 Review로 바꾼 후, Review 길이가 20자 미만, 600자 이상인 데이터를 삭제하였다. <br>
 Rating이 1점 또는 2점인 Review에는 '부정', Rating이 4점 또는 5점인 Review에는 '긍정' label을 부여하고 Rating이 3점인 Review는 삭제를 했다. <br>
+'긍정'의 경우 1로 표시를, '부정'의 경우 0으로 표시를 했다. <br>
 총 24155개의 결과가 나왔다.
 
 | Number | Review                                            | Label |

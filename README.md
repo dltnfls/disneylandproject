@@ -62,8 +62,6 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 
 * 리뷰 개수  
 
-<img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/79b2ff99-c252-4b29-950a-d7a7aafe9522">
-
 | 리뷰개수             |
 |----------------------|
 | 방문자가 남긴 코멘트 |

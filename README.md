@@ -62,7 +62,13 @@ https://www.kaggle.com/datasets/arushchillar/disneyland-reviews
 
 * 리뷰 개수  
 
-<img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/79b2ff99-c252-4b29-950a-d7a7aafe9522">  
+<img width="97" alt="image" src="https://github.com/dltnfls/disneylandproject/assets/101054398/79b2ff99-c252-4b29-950a-d7a7aafe9522">
+
+| 리뷰개수             |
+|----------------------|
+| 방문자가 남긴 코멘트 |
+| 42632                |
+| 고유한 값            |
 
 * 방문한 디즈니랜드 지점 분포(Location별로 리뷰가 몇 건 있는지 bar plot을 통해 나타냈다.)<br>
   X축: 디즈니랜드 지점 <br>
